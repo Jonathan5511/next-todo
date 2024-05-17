@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  margin: 20px auto;
+  padding: 0 20px;
+  background-color: #fff;
+  box-shadow: 2px 2px 2px 2px #534a4a;
+}
+
+.delete {
+  background-color: rgb(90, 22, 107);
+  margin: 0 5px;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.done {
+  background-color: #33681e;
+  margin: 0 5px;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.date {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #33681e;
+  padding: 5px;
+  border-radius: 8px;
+  background-color: #4f833a;
+  color: white;
+}
+
+.delete:hover {
+  cursor: pointer;
+}
+
+.done:hover {
+  cursor: pointer;
+}

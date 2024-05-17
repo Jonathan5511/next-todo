@@ -1,0 +1,25 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin: auto;
+  box-shadow: 2px 2px 2px 2px rgb(156, 147, 147);
+  padding: 20px;
+  background-color: white;
+}
+
+.form input {
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.form button {
+  color: white;
+  background-color: #477e32;
+
+  border: none;
+  width: 50%;
+  margin: 15px auto;
+  padding: 5px;
+  border-radius: 15px;
+}

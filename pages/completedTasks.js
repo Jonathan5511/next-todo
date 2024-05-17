@@ -1,17 +1,14 @@
-import { MongoClient } from "mongodb";
-import { Fragment } from "react";
+import React, { Fragment } from "react";
 import Header from "../components/Header";
-import AddTodo from "../components/AddTodo";
-import Todos from "../components/Todos";
+import { MongoClient } from "mongodb";
+import CompletedTodos from "../components/CompletedTodos";
 
-const DUMMY_TODOS = [];
-
-const Home = (props) => {
+const completedTasks = (props) => {
   return (
     <Fragment>
       <Header />
-      <Todos todos={props.todos} />
-      <AddTodo />
+      <h2>Congratulations On Task Completions</h2>
+      <CompletedTodos todos={props.todos} />
     </Fragment>
   );
 };
@@ -40,4 +37,4 @@ export const getStaticProps = async () => {
   };
 };
 
-export default Home;
+export default completedTasks;
